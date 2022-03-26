@@ -153,6 +153,7 @@ function calculate() {
     }
     
     $('input').val('') // clears the input area
+    x = '='+x
     input() // write the result to the input area as 'x'
 
 }
